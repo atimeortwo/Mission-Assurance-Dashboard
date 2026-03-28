@@ -22,10 +22,10 @@ Mission-critical systems are not judged only by whether code runs. They are judg
 
 This tool is meant to demonstrate a structured approach to mission assurance, readiness review, and operational decision support.
 
-##Why this is human-gated?
+## Why this is human-gated?
 As of now there is no automation on the backend but in a future version there will be. To assure that humans will be involved in the decision process there will fail safes or checks tbat require a human to continue the automated process or deploy a certain part involved on the dashboard itself. 
 
-##Why this is a mission assurance tool, not just a dashboard?
+## Why this is a mission assurance tool, not just a dashboard?
 The title is misleading but in the future this will become a tool vital to multiple different organizations and industries. 
 
 ## MVP Scope
