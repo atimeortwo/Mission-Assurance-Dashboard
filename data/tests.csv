@@ -1,0 +1,6 @@
+test_id,subsystem,test_name,date,result,notes
+TST-001,Antenna Control,Antenna pointing baseline,2026-03-28,Pass,Baseline stable
+TST-002,Telemetry Pipeline,Packet decode regression,2026-03-28,Pass,Nominal
+TST-003,Command Uplink,Command retry handling,2026-03-28,Fail,Timeout observed
+TST-004,Network Transport,Latency under load,2026-03-28,Pass,Within threshold
+TST-005,Operator UI,Dashboard stress test,2026-03-28,Pass,Acceptable
