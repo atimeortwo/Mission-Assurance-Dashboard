@@ -1,0 +1,4 @@
+risk_id,risk_title,likelihood,impact,mitigation,status
+RISK-001,Uplink instability during peak load,High,High,Complete retry and buffer tuning,Open
+RISK-002,Antenna failover delay,Medium,Medium,Add switch validation test,Mitigating
+RISK-003,UI refresh lag under scale,Low,Low,Optimize query path,Monitoring
