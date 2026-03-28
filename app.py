@@ -37,6 +37,30 @@ def capitalize_values(df: pd.DataFrame) -> pd.DataFrame:
 
     return df_copy
 
+def requirements_card(verified_pct: float) -> str:
+    if verified_pct >= 95:
+        bg, fg = "#28a745", "white"
+    elif verified_pct >= 85:
+        bg, fg = "#ffc107", "black"
+    else:
+        bg, fg = "#dc3545", "white"
+
+    return f"""
+    <div style="
+        background-color: {bg};
+        color: {fg};
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 10px;
+    ">
+        <div style="font-size: 14px; font-weight: 600;">REQUIREMENTS VERIFIED</div>
+        <div>{verified_pct:.1f}%</div>
+    </div>
+    """
+
 def blocker_style(val):
     if pd.isna(val):
         return ""
@@ -209,7 +233,7 @@ with col1:
     st.markdown(readiness_card(readiness), unsafe_allow_html=True)
 
 with col2:
-    st.metric("Requirements Verified", f"{verified_pct:.1f}%")
+    st.markdown(requirements_card(verified_pct), unsafe_allow_html=True)
 
 with col3:
     st.markdown(anomaly_card(int(len(open_anomalies))), unsafe_allow_html=True)
