@@ -1,0 +1,4 @@
+anomaly_id,subsystem,severity,description,owner,status,blocks_readiness
+ANOM-001,Command Uplink,Critical,Intermittent uplink timeout under burst traffic,GGreen,Open,Yes
+ANOM-002,Antenna Control,Medium,Failover switch delay above nominal,Ops,Open,No
+ANOM-003,Telemetry Pipeline,Low,Minor timestamp mismatch in debug mode,Dev,Closed,No
