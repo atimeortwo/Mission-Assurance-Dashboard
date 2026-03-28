@@ -1,0 +1,6 @@
+requirement_id,description,subsystem,criticality,verification_method,status,evidence_ref
+R-001,Uplink latency below threshold,Network Transport,High,Test,Pass,TST-004
+R-002,Telemetry packets parsed correctly,Telemetry Pipeline,High,Test,Pass,TST-002
+R-003,Command authentication enforced,Command Uplink,High,Inspection,Pass,INSP-001
+R-004,Ground antenna failover supported,Antenna Control,Medium,Demo,Open,
+R-005,Operator dashboard refresh under 5s,Operator UI,Low,Test,Fail,TST-007
