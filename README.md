@@ -23,10 +23,10 @@ Mission-critical systems are not judged only by whether code runs. They are judg
 This tool is meant to demonstrate a structured approach to mission assurance, readiness review, and operational decision support.
 
 ## Why this is human-gated?
-As of now there is no automation on the backend but in a future version there will be. To assure that humans will be involved in the decision process there will fail safes or checks tbat require a human to continue the automated process or deploy a certain part involved on the dashboard itself. 
+This project is designed to support human review rather than replace it. In mission-critical environments, readiness decisions should remain accountable to a human decision-maker. Future versions may automate parts of data ingestion or scoring, but final readiness review and approval should remain human-controlled.
 
 ## Why this is a mission assurance tool, not just a dashboard?
-The title is misleading but in the future this will become a tool vital to multiple different organizations and industries. 
+This project goes beyond passive status display. It is structured to support readiness review by organizing requirements, test results, anomalies, subsystem health, and risks into a human decision-support workflow. The goal is not just visibility, but better operational judgment.
 
 ## MVP Scope
 This MVP includes:
