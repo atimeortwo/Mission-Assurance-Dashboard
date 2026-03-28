@@ -1,0 +1,6 @@
+subsystem,status,last_update,notes,mission_critical
+Antenna Control,Yellow,2026-03-28,Failover timing issue,Yes
+Network Transport,Green,2026-03-28,Stable under load,Yes
+Telemetry Pipeline,Green,2026-03-28,Nominal,Yes
+Command Uplink,Red,2026-03-28,Critical timeout anomaly open,Yes
+Operator UI,Green,2026-03-28,Functional,No
